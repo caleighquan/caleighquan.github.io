@@ -17,6 +17,10 @@ header {
     flex-wrap: wrap;
 }
 
+header, header * {
+    box-sizing: border-box;
+}
+
 .header-logo img {
     width: 4rem;
     height: auto;
@@ -24,10 +28,6 @@ header {
 
 header h1, p {
     margin: 0;
-}
-
-h2 {
-    padding-left: 1.5rem;
 }
 
 nav {
@@ -113,6 +113,7 @@ section {
 .section-card h2 {
     flex: 0 0 20%;
     text-align: left;
+    padding-left: 1.5rem;
 }
 
 .section-card .section-content {
@@ -126,4 +127,30 @@ section {
 
 body {
     font-family: "Urbanist", sans-serif;
+}
+
+footer {
+    background-color: #3d5478;
+    color: white;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #afc8f0;
+}
+
+.footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.footer-contact li {
+    margin: 0.5rem 0;
 }
