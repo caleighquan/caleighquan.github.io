@@ -22,11 +22,7 @@ header {
     flex-direction: column;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header p {
+header h1, p {
     margin: 0;
 }
 
@@ -72,12 +68,39 @@ section {
     display: flex;
     gap: 2rem;
     padding: 1.5rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .intro img {
     width: 10rem;
     border-radius: 5%;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro-text p {
+    padding-left: 1.5rem;
+}
+
+.section-card {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.section-card h2 {
+    flex: 0 0 20%;
+    text-align: left;
+}
+
+.section-card .section-content {
+    flex: 1;
+    text-align: left;
 }
 
 .skills ul{
