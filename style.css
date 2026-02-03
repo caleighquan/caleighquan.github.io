@@ -30,6 +30,10 @@ header p {
     margin: 0;
 }
 
+h2 {
+    padding-left: 1.5rem;
+}
+
 nav {
     display: flex;
     gap: 2rem;
@@ -45,6 +49,17 @@ nav a {
 
 nav a:hover {
     color: #afc8f0;
+}
+
+.intro {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.skills {
+    padding-left: 4rem;
 }
 
 body {
