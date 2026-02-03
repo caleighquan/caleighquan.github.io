@@ -154,3 +154,11 @@ footer a:hover {
 .footer-contact li {
     margin: 0.5rem 0;
 }
+
+.section-content svg {
+    width: 100%;
+    max-width: 70vw;
+    height: 20vh;
+    display: block;
+    margin: 0 auto;
+}
