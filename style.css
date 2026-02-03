@@ -17,9 +17,9 @@ header {
     flex-wrap: wrap;
 }
 
-.header-title {
-    display: flex;
-    flex-direction: column;
+.header-logo img {
+    width: 4rem;
+    height: auto;
 }
 
 header h1, p {
@@ -83,9 +83,6 @@ section {
     gap: 1rem;
 }
 
-.intro-text p {
-    padding-left: 1.5rem;
-}
 
 .section-card {
     display: flex;
