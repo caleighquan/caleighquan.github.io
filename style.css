@@ -58,6 +58,11 @@ nav a:hover {
     align-items: center;
 }
 
+.intro img {
+    width: 10rem;
+    border-radius: 5%;
+}
+
 .skills {
     padding-left: 4rem;
 }
