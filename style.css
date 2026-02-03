@@ -55,7 +55,7 @@ main {
 }
 
 section {
-    max-width: 100%;
+    max-width: 90%;
     width: 60rem;
     margin: 0 auto;
     padding: 2rem;
@@ -157,8 +157,33 @@ footer a:hover {
 
 .section-content svg {
     width: 100%;
-    max-width: 70vw;
-    height: 20vh;
+    height: auto;
+    max-width: 100%; 
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+
+    .section-card h2 {
+        flex: 0 0 30%;
+        font-size: 1rem;
+    }
+
+    .section-card .section-content {
+        flex: 1;
+        font-size: 0.9rem;
+    }
+
+    .intro img {
+        width: 8rem;
+    }
+
+    .intro-buttons .button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
 }
