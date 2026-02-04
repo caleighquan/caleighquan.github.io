@@ -107,7 +107,7 @@ section {
 .section-card {
     display: flex;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .section-card h2 {
@@ -116,9 +116,25 @@ section {
     padding-left: 1.5rem;
 }
 
-.section-card .section-content {
+.section-content {
     flex: 1;
     text-align: left;
+}
+
+.section-content svg {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+.section-title {
+    flex: 0 20%;
+}
+
+.section-title h2 {
+    padding: 0;
 }
 
 .skills ul{
@@ -153,14 +169,6 @@ footer a:hover {
 
 .footer-contact li {
     margin: 0.5rem 0;
-}
-
-.section-content svg {
-    width: 100%;
-    height: auto;
-    max-width: 100%; 
-    display: block;
-    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
