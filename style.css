@@ -137,6 +137,13 @@ section {
     padding: 0;
 }
 
+.section-content img {
+    width: 40rem;
+    border-radius: 5%;
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+}
+
 .skills ul{
     padding: 0;
 }
@@ -184,6 +191,11 @@ footer a:hover {
     .section-card .section-content {
         flex: 1;
         font-size: 0.9rem;
+    }
+
+    .section-content img {
+        max-width: 100%;
+        height: auto;
     }
 
     .intro img {
